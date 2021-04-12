@@ -75,7 +75,7 @@ h1{
   background-color: white;
   color: #ff005c;
   border-radius: 1rem;
-  padding: 0.25rem;
+  padding: 0.5rem;
   border: 1px solid #ff005c;
 }
 
@@ -92,4 +92,44 @@ footer{
 .icontact{
   width: 30px;
   margin: auto 10px;
+}
+
+
+
+.nav-link{
+
+}
+
+.nav-link:hover{
+  background-color:#ff005c;
+  color: white;
+  font-weight: bold;
+}
+
+.active{
+  border: 1px solid white;
+  padding: 5px;
+  background-color: white;
+  color: #ff005c;
+  font-weight: bold;
+
+}
+
+
+
+/* Blogs content css */
+
+#german-god{
+  width: 30%;
+}
+
+.dog-paragraph{
+  margin: auto 30%;
+  text-align: justify;
+}
+
+
+.read_more{
+  color: #ff005c;
+  font-weight: bold;
 }
